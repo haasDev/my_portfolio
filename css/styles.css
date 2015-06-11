@@ -1,0 +1,7 @@
+body{
+	background-image: url('../img/seattle_bw.jpg');
+	background-size: cover;
+}
+.masthead-brand i{
+	color: white;
+}
