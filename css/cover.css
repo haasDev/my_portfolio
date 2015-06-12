@@ -55,7 +55,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding-top: 30px;
 }
 
 
@@ -151,6 +151,12 @@ body {
   .mastfoot,
   .cover-container {
     width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+  .inner{
+    padding: 30px;
+  }
+  .affix{
+    top: 30;
   }
 }
 

@@ -1,7 +1,34 @@
-body{
+body, html{
 	background-image: url('../img/seattle_bw.jpg');
-	background-size: cover;
+	height: 100%;
+	background-repeat: no-repeat;
+}
+body{
+	position: relative;
 }
 .masthead-brand i{
 	color: white;
+}
+#portfolio{
+	margin-top: 100px;
+	padding-top: 100px;
+	height: 2000px;
+	position: absolute;
+	top: 1027px;
+	left: 0;
+	width: 100%;
+}
+.affix{
+	width: 100%;
+	top: 0;
+}
+@media (min-width: 768px){
+	.affix{
+		position: relative;
+	}
+}
+@media (min-width: 992px){
+	.affix{
+		position: relative;
+	}
 }
