@@ -26,22 +26,22 @@
     <![endif]-->
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target="#nav-container">
 
     <div class="site-wrapper">
 
-      <div class="site-wrapper-inner">
+      <div id="home" class="site-wrapper-inner">
 
         <div class="cover-container">
 
-          <div class="masthead clearfix">
+          <div id="nav-container" class="masthead clearfix">
             <div class="inner">
               <h3 class="masthead-brand">Tyler Haas<br><i class="small">Front End Developer</i></h3>
               <nav>
                 <ul class="nav masthead-nav">
-                  <li class="active"><a href="#">Home</a></li>
-                  <li><a href="portfolio.html">Portfolio</a></li>
-                  <li><a href="contact.html">Contact</a></li>
+                  <li class="active"><a href="#home">Home</a></li>
+                  <li><a href="#portfolio">Portfolio</a></li>
+                  <li><a href="#contact">Contact</a></li>
                 </ul>
               </nav>
             </div>
@@ -57,6 +57,14 @@
 
         </div>
 
+        <div>
+          <img class="img-responsive" src="img/seattle_bw.jpg">
+        </div>
+
+        <div id="portfolio" class="placeholder">
+          <h1>Some stuff to add</h1>
+        </div>
+
       </div>
 
     </div>
@@ -65,6 +73,13 @@
     ================================================== -->
     <!-- Placed at the end of the document so the pages load faster -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script type="text/javascript">
+      $("a").click(function() {
+        $("html, body").animate({
+          scrollTop: $( $(this).attr("href") ).offset().top
+        }, 750);
+      });
+    </script>
   </body>
 </html>

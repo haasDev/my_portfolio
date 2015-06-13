@@ -55,7 +55,7 @@ body {
 
 /* Padding for spacing */
 .inner {
-  padding: 30px;
+  padding: 30px 0;
 }
 
 
@@ -94,6 +94,9 @@ body {
   color: #fff;
   border-bottom-color: #fff;
 }
+.placeholder{
+  height: 2000px;
+}
 
 @media (min-width: 768px) {
   .masthead-brand {
@@ -117,6 +120,15 @@ body {
   font-weight: bold;
 }
 
+/*
+ * Main Content Styles
+ */
+
+ #portfolio{
+  margin-top: 50px;
+  padding-top: 100px;
+ }
+
 
 /*
  * Footer
@@ -137,6 +149,7 @@ body {
   .masthead {
     position: fixed;
     top: 0;
+    padding: 0 30px;
   }
   .mastfoot {
     position: fixed;
