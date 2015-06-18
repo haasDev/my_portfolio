@@ -3,5 +3,4 @@ $("a").click(function() {
 	  scrollTop: $( $(this).attr("href") ).offset().top
 	}, 750);
 });
-
 //# sourceMappingURL=script.js.map

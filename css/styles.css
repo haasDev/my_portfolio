@@ -5,7 +5,7 @@
 a,
 a:focus,
 a:hover {
-  color: green; }
+  color: #fff; }
 
 /* Custom default button */
 .btn-default,
@@ -14,8 +14,8 @@ a:hover {
   color: #333;
   text-shadow: none;
   /* Prevent inheritence from `body` */
-  background-color: green;
-  border: 1px solid green; }
+  background-color: #fff;
+  border: 1px solid #fff; }
 
 /*
  * Base structure
@@ -26,7 +26,7 @@ body {
   background-color: #333; }
 
 body {
-  color: green;
+  color: #fff;
   text-align: center;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.5); }
 
@@ -83,7 +83,7 @@ body {
     padding-left: 0;
     font-size: 16px;
     font-weight: bold;
-    color: green;
+    color: #fff;
     /* IE8 proofing */
     color: rgba(255, 255, 255, 0.75);
     border-bottom: 2px solid transparent; }
@@ -96,8 +96,8 @@ body {
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-  color: green;
-  border-bottom-color: green; }
+  color: #fff;
+  border-bottom-color: #fff; }
 
 /*
  * Main Content Styles
