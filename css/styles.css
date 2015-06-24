@@ -105,9 +105,24 @@ body {
 #portfolio {
   margin-top: 50px;
   padding: 100px 10%; }
+  #portfolio img {
+    border: black 5px solid;
+    width: 90%; }
+  #portfolio ul > li {
+    list-style: none;
+    width: 33.3333333%; }
 
-.placeholder {
-  height: 2000px; }
+.nav-portfolio {
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: row;
+  -webkit-flex-direction: row;
+  justify-content: space-between;
+  -webkit-justify-content: space-between;
+  flex-wrap: wrap;
+  -webkit-flex-wrap: wrap; }
+  .nav-portfolio li {
+    align-self: center; }
 
 /*
  * Footer
