@@ -114,7 +114,10 @@ body {
     padding: 0 0 20px 0; }
     @media (min-width: 768px) {
       #portfolio ul > li {
-        width: 33.333333333%; } }
+        width: 50%; } }
+    @media (min-width: 992px) {
+      #portfolio ul > li {
+        width: 33.3333333%; } }
   #portfolio .cover-container {
     background: rgba(0, 0, 0, 0.5);
     width: 86.805555555556%;
