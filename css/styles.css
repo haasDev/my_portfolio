@@ -110,7 +110,13 @@ body {
     width: 90%; }
   #portfolio ul > li {
     list-style: none;
-    width: 33.3333333%; }
+    width: 33.3333333%;
+    margin: none;
+    padding: 0 0 20px 0; }
+  #portfolio .cover-container {
+    background: rgba(0, 0, 0, 0.5);
+    width: 86.805555555556%;
+    border-radius: 10px; }
 
 .nav-portfolio {
   display: flex;
@@ -120,7 +126,9 @@ body {
   justify-content: space-between;
   -webkit-justify-content: space-between;
   flex-wrap: wrap;
-  -webkit-flex-wrap: wrap; }
+  -webkit-flex-wrap: wrap;
+  margin: 0;
+  padding: 0; }
   .nav-portfolio li {
     align-self: center; }
 
