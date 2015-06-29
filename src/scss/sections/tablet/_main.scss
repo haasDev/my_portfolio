@@ -1,0 +1,23 @@
+@media #{$brk-tablet} {
+
+  /* Pull out the header and footer */
+  .masthead {
+    position: fixed;
+    top: 0;
+    padding: 0 30px;
+  }
+  .mastfoot {
+    position: fixed;
+    bottom: 0;
+  }
+  /* Start the vertical centering */
+  .site-wrapper-inner {
+    vertical-align: middle;
+  }
+  /* Handle the widths */
+  .masthead,
+  .mastfoot,
+  .cover-container {
+    width: 100%; /* Must be percentage or pixels for horizontal alignment */
+  }
+}

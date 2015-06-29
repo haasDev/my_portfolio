@@ -1,0 +1,16 @@
+/* Links */
+a,
+a:focus,
+a:hover {
+  color: $white;
+}
+
+/* Custom default button */
+.btn-default,
+.btn-default:hover,
+.btn-default:focus {
+  color: $darkGrey;
+  text-shadow: none; /* Prevent inheritence from `body` */
+  background-color: $white;
+  border: 1px solid $white;
+}

@@ -1,0 +1,13 @@
+// definitions
+@import "lib/_variables.scss";
+
+@import "lib/_mixins.scss";
+
+// mobile styles
+@import "sections/base/_main.scss";
+
+// tablet styles
+@import "sections/tablet/_main.scss";
+
+// desktop styles 
+@import "sections/desktop/_main.scss";
