@@ -3,19 +3,20 @@ $.fn.followTo = function (pos) {
         $window = $(window);
 
     $window.scroll(function (e) {
-        if ($window.scrollTop() > pos) {
-            $this.css({
-                position: 'absolute',
-                top: pos
-            });
-        } else {
-            $this.css({
-                position: 'fixed',
-                top: 0
-            });
+        if ($window.width() > 767) {
+            if ($window.scrollTop() > pos) {
+                $this.css({
+                    position: 'absolute',
+                    top: pos
+                });
+            } else {
+                $this.css({
+                    position: 'fixed',
+                    top: 0
+                });
+            }
         }
     });
 };
 
-console.log($('#resume').scrollTop().top);
 $('#nav-container').followTo($('#resume').offset().top);
