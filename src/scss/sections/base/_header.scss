@@ -2,9 +2,11 @@
  * Header
  */
 .masthead {
+  height: 80px;
+  margin-top: -10px;
 
 	&-brand {
-	  margin-top: 10px;
+	  margin-top: -10px;
 	  margin-bottom: 10px;
 	  @media #{$brk-tablet}{
 		  float: left;
